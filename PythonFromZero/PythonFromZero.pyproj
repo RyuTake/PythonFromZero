@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ae13b6-84a4-4c19-a1e0-e4cbfb6fe8e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonFromZero.py</StartupFile>
+    <StartupFile>2_3_1_perceptron.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonFromZero</Name>
     <RootNamespace>PythonFromZero</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="2_3_1_perceptron.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonFromZero.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
